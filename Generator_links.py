@@ -3,6 +3,7 @@ import json
 
 def Generate_links(file_name):
     list_links = []
+    list_checker_links = []
 
     with open(file_name, "r", encoding="utf-8") as file:
         links = file.read().strip().split("\n")[1:]
